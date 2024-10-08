@@ -1,0 +1,8 @@
+.home {
+  background-color: rgba(124, 120, 120, 0.855);
+  min-height: 100vh;
+  display: flex;
+  gap: 40px;
+  padding: 30px 80px;
+  flex-wrap: wrap;
+}

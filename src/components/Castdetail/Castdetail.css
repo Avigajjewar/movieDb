@@ -1,0 +1,43 @@
+.cast-detail {
+  width: 13.5vw;
+  min-height: 20vh;
+  /* background-color: brown; */
+  margin: 10px 22px;
+  border: 1px solid black;
+
+}
+
+.cast-detail h2{
+    font-size: 50px;
+    margin-left: 21px;
+}
+.cast-cont{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cast-container{
+    height: 290px;
+    /* background-color: white; */
+    margin: 20px;
+    width: 160px;
+}
+.cast-img{
+    height: 80%;
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.cast-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.cast-name{
+    height: 20%;
+    padding: 8px;
+}
+.cast-name h5{
+     font-size:12px ;
+     font-weight: 100;
+     word-wrap: break-word;
+}
