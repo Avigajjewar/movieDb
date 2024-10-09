@@ -47,7 +47,7 @@ const Home = ({ category, setdetails, search }) => {
     } else {
       fetchData();
     }
-  }, [category]);
+  }, [category, search]);
 
   return (
     <div className="home">

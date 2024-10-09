@@ -6,3 +6,11 @@
   padding: 30px 80px;
   flex-wrap: wrap;
 }
+
+
+@media (max-width:750px) {
+  .home{
+    
+    justify-content: center;
+  }
+}

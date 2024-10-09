@@ -8,21 +8,23 @@ const CardInfo = ({ details }) => {
   const formatDate = date.toString();
 
   return (
+    
+
     <div
       style={{
-        backgroundImage: `url(https://image.tmdb.org/t/p/w500${details.backdrop_path})`,
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "cover",
-        objectFit: "contain",
-      }}
-      className="card-info"
-    >
+          backgroundImage: `url(https://image.tmdb.org/t/p/w500${details.backdrop_path})`,
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+          objectFit: "contain",
+        }}
+        className="card-info"
+        >
       <div className="card-info-top">
         <div className="card-left">
           <img
             src={`https://image.tmdb.org/t/p/w500${details.poster_path}`}
             alt=""
-          />
+            />
         </div>
         <div className="card-right">
           <h1>{details.original_title} </h1>
@@ -40,6 +42,7 @@ const CardInfo = ({ details }) => {
         <p>{details.overview}</p>
       </div>
     </div>
+           
   );
 };
 

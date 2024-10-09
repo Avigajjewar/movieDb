@@ -85,3 +85,59 @@ h5 {
   font-size: 13px;
   font-weight: lighter;
 }
+
+@media (max-width: 750px) {
+  .card-info {
+    margin: 10px auto;
+    height: 223px;
+    width: 398px;
+  }
+  .card-info-top {
+  
+    display: flex;
+    margin-top: 15px;
+    padding: 5px 5px;
+     
+    height: 150px;
+    width: 175vw;
+  }
+  .card-right h3 {
+    font-size: 10px;
+    font-weight: 100;
+  }
+  .card-right h1 {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .card-right h4 {
+    font-size: 10px;
+    margin-top: 5px;
+    
+  }
+  .card-right-gen {
+    margin: 10px 0;
+    
+    
+  }
+  .card-right-gen h3,
+  h5 {
+    font-size: 10px;
+    font-weight: 100;
+  }
+  
+.card-info-bottom {
+        padding: 10px;
+    width: 85%;
+  }
+  .card-info-bottom h4 {
+    font-size: 11px;
+    font-weight: 300;
+  
+  }
+  .card-info-bottom p {
+    word-spacing: 6px;
+    font-size: 8px;  
+    margin-top: 4px;
+      
+  }
+}

@@ -39,3 +39,11 @@
   background-color: rgba(151, 149, 149, 0.46);
   border: none;
 }
+
+
+@media (max-width: 750px) {
+  .navbar input,button {
+    display: none;
+  }
+  
+}

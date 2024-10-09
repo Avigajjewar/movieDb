@@ -5,12 +5,11 @@
   margin-bottom: 50px;
   transition: 0.5s ease;
   text-decoration: none;
-   
 }
 
 .card-thumb {
   width: 100%;
-  border-radius: 3px;
+  /* border-radius: 3px; */
 }
 
 .card-thumb img {
@@ -23,8 +22,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-radius: 22px;
-
+  /* border-radius: 22px; */
 }
 
 .card-info h2 {
@@ -37,6 +35,15 @@
   font-weight: 100;
 }
 
-.card:hover{
-    scale: 1.1;
+.card:hover {
+  scale: 1.1;
+}
+
+@media (max-width: 750px) {
+  .card {
+    height: 410px;
+    width: 300px;
+    margin-bottom: 80px;
+    /* margin: 0 auto; */
+  }
 }
