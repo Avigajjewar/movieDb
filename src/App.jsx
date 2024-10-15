@@ -2,8 +2,6 @@ import React, { useState } from "react";
 import { Route, Routes } from "react-router-dom";
 import Navbar from "./components/navbar/Navbar";
 import Home from "./pages/home/Home";
-import Upcoming from "./pages/upcoming/Upcoming";
-import CardInfo from "./components/card-info/CardInfo";
 import MovieDetail from "./pages/MovieDetail/MovieDetail";
 
 const App = () => {

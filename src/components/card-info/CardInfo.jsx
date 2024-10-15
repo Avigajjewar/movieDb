@@ -1,3 +1,5 @@
+//card for movie details 
+
 import React from "react";
 import "./CardInfo.css";
 

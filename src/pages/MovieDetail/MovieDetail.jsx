@@ -3,7 +3,6 @@ import "./MovieDetail.css";
 import CardInfo from "../../components/card-info/CardInfo";
 import { API_KEY } from "../../data";
 import Castdetail from "../../components/Castdetail/Castdetail";
-import Card from "../../components/cards/Card";
 
 const MovieDetail = ({ details }) => {
   const [cast, setcast] = useState([]);
@@ -25,7 +24,7 @@ const MovieDetail = ({ details }) => {
     <div className="details">
       <CardInfo details={details} />
       <h2 className="cast">Cast</h2>
-      <hr /> 
+      <hr />
       <div className="det-container">
         {cast.map((a, index) => {
           return <Castdetail key={index} a={a} />;
